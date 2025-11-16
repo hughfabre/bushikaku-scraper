@@ -3,7 +3,8 @@ It will send you the scraped info via discord webhook.
 
 you can configure files [here](/config.json).
 
-## Config
+Use this command to build:
+go build -o busyoyaku.exe ./src
 
 - `search_url`: Search URL (example: https://www.bushikaku.net/search/tokyo_osaka/20260101/)
 - `webhook_url`: Discord webhook URL
