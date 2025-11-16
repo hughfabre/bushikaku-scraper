@@ -1,0 +1,33 @@
+# Binaries
+busyoyaku
+busyoyaku.exe
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Dependency directories
+vendor/
+
+# Go workspace file
+go.work
+
+# Config file with sensitive data
+config.json
+
+# Last hash file
+last_hash.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
