@@ -27,6 +27,9 @@ func initMessages(lang string) {
 			Price:              "Price",
 			BusReservationInfo: "Bus Reservation Information",
 			Items:              "items %d-%d of %d",
+			Exiting:            "Exiting...",
+			TryingJapanese:     "No results from English version, trying Japanese version...",
+			FromJapanese:        " (from Japanese website)",
 		}
 	} else {
 		messages = Messages{
@@ -52,6 +55,9 @@ func initMessages(lang string) {
 			Price:              "料金",
 			BusReservationInfo: "バス予約情報",
 			Items:              "%d件中 %d-%d件目",
+			Exiting:            "終了中...",
+			TryingJapanese:     "英語版で結果が見つからなかったため、日本語版で再検索します...",
+			FromJapanese:        " (日本語サイトから)",
 		}
 	}
 }

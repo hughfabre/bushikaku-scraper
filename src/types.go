@@ -64,5 +64,14 @@ type Messages struct {
 	Price              string
 	BusReservationInfo string
 	Items              string
+	Exiting            string
+	TryingJapanese     string
+	FromJapanese       string
+}
+
+type URLBusInfo struct {
+	URL      string
+	BusInfos []BusInfo
+	FromJA   bool
 }
 
