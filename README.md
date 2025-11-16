@@ -7,7 +7,7 @@ Use this command to build:
 <br />
 `go build -o busyoyaku.exe ./src`
 
-Explanation of [config.json](/config.json)
+Explanation of [config.json](/config.json):
 
 - `search_url`: Search URL (example: https://www.bushikaku.net/search/tokyo_osaka/20260101/)
 - `webhook_url`: Discord webhook URL
