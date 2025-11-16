@@ -1,13 +1,12 @@
-A scraper for [this website](https://www.bushikaku.net/).
+#### A scraper for [this website](https://www.bushikaku.net/).
+
 It will send you the scraped info via discord webhook.
 
-you can configure files [here](/config.json).
-
-Use this command to build:
+#### Use this command to build:
 
 `go build -o busyoyaku.exe ./src`
 
-Explanation of [config.json](/config.json):
+#### Explanation of [config.json](/config.json):
 
 - `search_url`: Search URL (example: https://www.bushikaku.net/search/tokyo_osaka/20260101/)
 - `webhook_url`: Discord webhook URL
