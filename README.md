@@ -4,7 +4,7 @@ It will send you the scraped info via discord webhook.
 you can configure files [here](/config.json).
 
 Use this command to build:
-<br />
+
 `go build -o busyoyaku.exe ./src`
 
 Explanation of [config.json](/config.json):
