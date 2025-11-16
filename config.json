@@ -1,0 +1,6 @@
+{
+  "search_url": "YOUR_SEARCH_URL",
+  "webhook_url": "YOUR_WEBHOOK_URL",
+  "interval_hours": "YOUR_INTERVAL_HOURS",
+  "language": "YOUR_LANGUAGE"
+}
